@@ -1,0 +1,20 @@
+{
+  "name": "anniversary-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that tracks anniversaries/birthdays and sends reminders",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "node-cron": "^3.0.3",
+    "lowdb": "^7.0.1",
+    "dotenv": "^16.4.5"
+  },
+  "license": "ISC"
+}
